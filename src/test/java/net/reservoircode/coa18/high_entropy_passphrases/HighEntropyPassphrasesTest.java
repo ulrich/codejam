@@ -7,21 +7,21 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class HighEntropyPassphrasesTest {
 
     @Test
-    public void should_find_high_entropy_passphrases_with_good_phrase() {
+    public void for_chall_1_should_find_high_entropy_passphrases_with_good_phrase() {
         Integer valid = new HighEntropyPassphrases().isValid("aa bb cc dd ee\n");
 
         assertThat(valid).isEqualTo(1);
     }
 
     @Test
-    public void should_find_high_entropy_passphrases_with_bad_phrase() {
+    public void for_chall_1_should_find_high_entropy_passphrases_with_bad_phrase() {
         Integer valid = new HighEntropyPassphrases().isValid("aa bb cc dd aa");
 
         assertThat(valid).isEqualTo(0);
     }
 
     @Test
-    public void should_find_chall_1() {
+    public void for_chall_1_should_find_challenge() {
         Integer valid = new HighEntropyPassphrases().isValid("vxjtwn vjnxtw sxibvv mmws wjvtxn icawnd rprh\n" +
                 "fhaa qwy vqbq gsswej lxr yzl wakcige mwjrl\n" +
                 "bhnlow huqa gtbjc gvj wrkyr jgvmhj bgs umo ikbpdto\n" +

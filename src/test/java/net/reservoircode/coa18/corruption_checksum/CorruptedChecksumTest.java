@@ -7,15 +7,15 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class CorruptedChecksumTest {
 
     @Test
-    public void should_find_corrupted_checksum_with_minimal_matrix() {
-        Integer expect = new CorruptedChecksum().sum("5\t1\t9\t5\n7\t5\t3\n2\t4\t6\t8");
+    public void for_chall_1_should_find_corrupted_checksum_with_minimal_matrix() {
+        Integer expect = new CorruptedChecksum().chall1("5\t1\t9\t5\n7\t5\t3\n2\t4\t6\t8");
 
         assertThat(expect).isEqualTo(18);
     }
 
     @Test
-    public void should_find_corrupted_checksum_with_real_chall() {
-        Integer expect = new CorruptedChecksum().sum("790\t99\t345\t1080\t32\t143\t1085\t984\t553\t98\t123\t97\t197\t886\t125\t947\n" +
+    public void for_chall_1_should_find_challenge() {
+        Integer expect = new CorruptedChecksum().chall1("790\t99\t345\t1080\t32\t143\t1085\t984\t553\t98\t123\t97\t197\t886\t125\t947\n" +
                 "302\t463\t59\t58\t55\t87\t508\t54\t472\t63\t469\t419\t424\t331\t337\t72\n" +
                 "899\t962\t77\t1127\t62\t530\t78\t880\t129\t1014\t93\t148\t239\t288\t357\t424\n" +
                 "2417\t2755\t254\t3886\t5336\t3655\t5798\t3273\t5016\t178\t270\t6511\t223\t5391\t1342\t2377\n" +
