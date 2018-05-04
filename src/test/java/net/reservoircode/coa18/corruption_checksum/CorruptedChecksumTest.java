@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-class CorruptedChecksumTest {
+public class CorruptedChecksumTest {
 
     @Test
     public void should_find_corrupted_checksum_with_minimal_matrix() {
