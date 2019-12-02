@@ -1,4 +1,4 @@
-package net.reservoircode.coa18.high_entropy_passphrases;
+package net.reservoircode.aoc18.high_entropy_passphrases;
 
 import java.util.List;
 import java.util.Optional;

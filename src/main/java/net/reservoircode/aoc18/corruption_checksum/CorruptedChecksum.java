@@ -1,4 +1,4 @@
-package net.reservoircode.coa18.corruption_checksum;
+package net.reservoircode.aoc18.corruption_checksum;
 
 import static java.lang.Integer.parseInt;
 import static java.util.stream.Stream.of;

@@ -1,4 +1,4 @@
-package net.reservoircode.coa18.maze_of_twisty_trampolines;
+package net.reservoircode.aoc18.maze_of_twisty_trampolines;
 
 public class MazeOfTwistyTrampolines {
 

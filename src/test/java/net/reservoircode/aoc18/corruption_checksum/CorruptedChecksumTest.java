@@ -1,5 +1,6 @@
-package net.reservoircode.coa18.corruption_checksum;
+package net.reservoircode.aoc18.corruption_checksum;
 
+import net.reservoircode.aoc19.fuel_requirements.FuelRequirements;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;

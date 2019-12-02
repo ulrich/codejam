@@ -1,4 +1,4 @@
-package net.reservoircode.coa18.inverse_captcha;
+package net.reservoircode.aoc18.inverse_captcha;
 
 import org.junit.jupiter.api.Test;
 
