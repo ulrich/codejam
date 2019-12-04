@@ -1,10 +1,8 @@
 package net.reservoircode.aoc19.fuel_requirements;
 
-import net.reservoircode.aoc18.maze_of_twisty_trampolines.MazeOfTwistyTrampolines;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.junit.jupiter.api.Assertions.*;
 
 class FuelRequirementsTest {
 
